@@ -1,6 +1,7 @@
 {
   "name": "HTML5 Outliner",
   "short_name": "h5o",
+  "version": "0.8.15",
   "manifest_version": 3,
   "description": "Generates a navigable page outline with heading and sectioning elements",
   "icons": {
@@ -8,13 +9,15 @@
     "128": "img/128.png"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "file://*/*"
   ],
   "content_scripts": [
     {
       "matches": [
         "http://*/*",
-        "https://*/*"
+        "https://*/*",
+        "file://*/*"
       ],
       "js": [
         "outliner.min.js",
@@ -26,8 +29,5 @@
     "default_icon": "img/16.png",
     "default_title": "Outline",
     "default_popup": "popup.html"
-  },
-  "web_accessible_resources": [
-    "fonts/PT_Sans-Web-Regular.ttf"
-  ]
+  }
 }
