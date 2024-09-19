@@ -1,7 +1,7 @@
 {
   "name": "HTML5 Outliner",
   "short_name": "h5o",
-  "version": "0.8.15",
+  "version": "0.9.1",
   "manifest_version": 3,
   "description": "Generates a navigable page outline with heading and sectioning elements",
   "icons": {

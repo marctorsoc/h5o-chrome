@@ -1,7 +1,7 @@
 {
   "name": "h5o-chrome",
-  "version": "0.8.14",
-  "description": "Extension for Google Chrom / Chromium to generate a navigable page outline based on HTML5 outlining algorithm",
+  "version": "0.9.1",
+  "description": "Extension for Google Chrome / Chromium to generate a navigable page outline based on HTML5 outlining algorithm",
   "scripts": {
     "test": "grunt"
   },
